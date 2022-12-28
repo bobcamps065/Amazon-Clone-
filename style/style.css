@@ -1,0 +1,139 @@
+:root{
+    --color1:#232f3e;
+    --color2:#767676;
+    --color3:gold;
+    --color4:#007185;
+    --color: #0F1111;
+    --color:#131921;
+    --font-family: inherit;
+}
+/* ================================================ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body{
+    background-color: lightgray;
+}
+/* ================================================================ */
+header{
+    background-color: #131921;
+    height: 58px;
+}
+
+
+.img{
+    width: 100px;
+    height: 50px;
+    margin: 8px;
+    padding: 10px;
+    font-size: 30px;
+}
+/* ================================================================ */
+.navbar{
+    background-color: #232f3e;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+a{
+    color: white;
+    margin: 10px;
+   text-decoration: none;
+   font-family: inherit;
+   line-height: 1em;
+}
+
+a:hover{
+    border: solid whitesmoke 1px;
+}
+/* ================================================================ */
+select{
+    background-color: lightgrey;
+    margin-top: -89px;
+    width: 43px;
+    height: 30px;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+}
+
+select:hover{
+    color: black;
+     opacity: 0.70;
+}
+
+.search{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.search{
+    margin-left: 130px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: -89px;
+    height: 30px;
+    width: 300px;
+    right: 20px;
+    border: solid goldenrod;
+}
+
+
+.btn{
+    background-color: goldenrod;
+    color: #2d2d2d;
+    margin-top: -89px;
+    height: 30px;
+    width: 40px;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+    text-align: center;
+    
+}
+/* ================================================================ */
+h3{
+ text-align: center;
+ margin-top: 25px;
+}
+
+.cardItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 20rem;
+    height: 25rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.img1{
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+    height: 18rem;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.p{
+    color: var(--color4);
+    cursor: pointer;
+}
+
+.p:hover{
+    color: #e98561;
+}
